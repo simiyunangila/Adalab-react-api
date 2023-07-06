@@ -28,18 +28,20 @@ console.log(error.message);
         return <h2>Loading.....</h2>
     }
     return(
+        <><h1>All products</h1>
         <div  className="pics" >
             
             {products.map(item =>(
-                <div key ={item.id}>
+                <div className="part"  key ={item.id}>
                 <h2>{item.title}</h2>
                 <img src={item.images[0]} alt={item.title}/><br></br>
-                <label>Category:{item.category}</label>
+                <label>Category:{item.category}</label><br></br>
                 <label>Brand:{item.brand}</label>
                 <p>Description:{item.description}</p>
                 </div>
             ))}
         </div>
+        </>
     );
        
     

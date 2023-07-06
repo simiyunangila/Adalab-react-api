@@ -1,9 +1,21 @@
 .pics{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: solid 1px;
-    
+    gap: 12px;
+   
+}
+.part{
+    border:solid green ;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: white;
 }
 img{
-    width: 60%;
+    width: 50%;
+}
+h1{text-align: center;}
+body{
+    background-color: aliceblue;
+    margin: 0 20px ;
 }
