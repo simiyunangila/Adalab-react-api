@@ -5,17 +5,17 @@
    
 }
 .part{
-    border:solid green ;
+    border:solid aliceblue ;
     border-radius: 5px;
     margin-bottom: 2%;
     text-align: center;
-    background-color: white;
+    background-color: azure;
 }
 img{
     width: 50%;
 }
 h1{text-align: center;}
 body{
-    background-color: aliceblue;
+    background-color: white;
     margin: 0 20px ;
 }
