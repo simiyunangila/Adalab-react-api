@@ -1,8 +1,9 @@
 .pics{
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid 1px;
     
 }
 img{
-    width: 50%;
+    width: 60%;
 }

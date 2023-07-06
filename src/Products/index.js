@@ -29,7 +29,7 @@ console.log(error.message);
     }
     return(
         <div  className="pics" >
-            <h1>All Products</h1>
+            
             {products.map(item =>(
                 <div key ={item.id}>
                 <h2>{item.title}</h2>
