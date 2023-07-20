@@ -1,16 +1,20 @@
 .pics{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 12px;
    
 }
+h2{color: brown;}
+label{font-style:oblique}
+span{ color: brown;}
 .part{
     border:solid aliceblue ;
     border-radius: 5px;
     margin-bottom: 2%;
     text-align: center;
-    background-color: azure;
+    background-color: rgb(248, 226, 208);
 }
+p{ font-style: italic;}
 img{
     width: 50%;
 }
